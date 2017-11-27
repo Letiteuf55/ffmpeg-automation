@@ -21,9 +21,9 @@ rem //                   Definition des variables
 rem //
 rem ///////////////////////////////////////////////////////////////////
 
-SET REP_IN=X:\Edgy_TV\pivot\IN
-SET REP_OUT=X:\Edgy_TV\pivot\OUT
-SET REP_SAVE=X:\Edgy_TV\pivot\Done
+SET REP_IN=X:\TV\pivot\IN
+SET REP_OUT=X:\V\pivot\OUT
+SET REP_SAVE=X:\TV\pivot\Done
 
 :encodage
 ECHO.
