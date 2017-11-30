@@ -38,7 +38,7 @@ FOR /f "delims=." %%? IN ('DIR/b %REP_IN%\*.mp4') DO (
 ECHO Fichier %%? detecte dans %REP_IN% : test disponibilite...
 rem //On teste si on le fichier est fini
 
-ffmpeg -y -i %REP_IN%\%%?.mp4 -vcodec copy -s 1920x1080 -acodec copy %REP_OUT%\%%?.mp4    
+ffmpeg -y -i %REP_IN%\%%?.mp4 -vcodec copy -acodec copy %REP_OUT%\%%?.mp4    
 
 ECHO.
 ECHO.
